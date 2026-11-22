@@ -1,0 +1,92 @@
+[
+  {
+    "id": "P1",
+    "source": "乡甲",
+    "channel": "集体",
+    "first_report": "1",
+    "firm": "F1",
+    "consent": "电话",
+    "week": "周三"
+  },
+  {
+    "id": "P2",
+    "source": "乡甲",
+    "channel": "集体",
+    "first_report": "2",
+    "firm": "F1",
+    "consent": "雇主",
+    "week": "周三"
+  },
+  {
+    "id": "P3",
+    "source": "乡乙",
+    "channel": "自行",
+    "first_report": "8",
+    "firm": "F1",
+    "consent": "电话+雇主",
+    "week": "周五"
+  },
+  {
+    "id": "P4",
+    "source": "乡乙",
+    "channel": "集体",
+    "first_report": "12",
+    "firm": "F2",
+    "consent": "电话",
+    "week": "周四"
+  },
+  {
+    "id": "P5",
+    "source": "乡甲",
+    "channel": "自行",
+    "first_report": "23",
+    "firm": "F2",
+    "consent": "拒接",
+    "week": "?"
+  },
+  {
+    "id": "P6",
+    "source": "乡乙",
+    "channel": "集体",
+    "first_report": "3",
+    "firm": "F3",
+    "consent": "雇主",
+    "week": "周五"
+  },
+  {
+    "id": "P7",
+    "source": "乡甲",
+    "channel": "自行",
+    "first_report": "2",
+    "firm": "F3",
+    "consent": "电话",
+    "week": "周四"
+  },
+  {
+    "id": "P8",
+    "source": "乡乙",
+    "channel": "集体",
+    "first_report": "1",
+    "firm": "F1",
+    "consent": "雇主",
+    "week": "周五"
+  },
+  {
+    "id": "P9",
+    "source": "乡乙",
+    "channel": "自行",
+    "first_report": "6",
+    "firm": "F2",
+    "consent": "电话",
+    "week": "周四"
+  },
+  {
+    "id": "P10",
+    "source": "乡甲",
+    "channel": "集体",
+    "first_report": "5",
+    "firm": "F2",
+    "consent": "雇主",
+    "week": "周三"
+  }
+]

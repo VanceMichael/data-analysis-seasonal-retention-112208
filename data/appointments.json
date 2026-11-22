@@ -1,0 +1,34 @@
+[
+  {
+    "appt": "A1",
+    "slot": "周三",
+    "type": "个人",
+    "target": "P1",
+    "touch": "1",
+    "state": "已约"
+  },
+  {
+    "appt": "A2",
+    "slot": "周五",
+    "type": "个人",
+    "target": "P3",
+    "touch": "1",
+    "state": "候选"
+  },
+  {
+    "appt": "A3",
+    "slot": "周五",
+    "type": "雇主",
+    "target": "F1",
+    "touch": "1",
+    "state": "候选"
+  },
+  {
+    "appt": "A4",
+    "slot": "周四",
+    "type": "个人",
+    "target": "P4",
+    "touch": "1",
+    "state": "候选"
+  }
+]

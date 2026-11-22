@@ -1,0 +1,110 @@
+[
+  {
+    "check": "C1",
+    "subject": "P1",
+    "from": "16",
+    "to": "20",
+    "type": "连续换岗",
+    "reference": "F2",
+    "source": "个人"
+  },
+  {
+    "check": "C2",
+    "subject": "P2",
+    "from": "18",
+    "to": "25",
+    "type": "无回执",
+    "reference": "F1",
+    "source": "名册"
+  },
+  {
+    "check": "C3",
+    "subject": "P3",
+    "from": "20",
+    "to": "25",
+    "type": "失联",
+    "reference": "F1",
+    "source": "个人"
+  },
+  {
+    "check": "C4",
+    "subject": "P4",
+    "from": "10",
+    "to": "13",
+    "type": "核实报到",
+    "reference": "F2",
+    "source": "个人"
+  },
+  {
+    "check": "C5",
+    "subject": "P5",
+    "from": "23",
+    "to": "24",
+    "type": "已在岗",
+    "reference": "F2",
+    "source": "名册"
+  },
+  {
+    "check": "C6",
+    "subject": "P6",
+    "from": "12",
+    "to": "15",
+    "type": "合同结束",
+    "reference": "F3",
+    "source": "名册"
+  },
+  {
+    "check": "C7",
+    "subject": "F1",
+    "from": "16",
+    "to": "25",
+    "type": "整批缺报",
+    "reference": "F1",
+    "source": "回传记录"
+  },
+  {
+    "check": "C8",
+    "subject": "P3",
+    "from": "24",
+    "to": "25",
+    "type": "在岗",
+    "reference": "F1",
+    "source": "补回"
+  },
+  {
+    "check": "C9",
+    "subject": "P7",
+    "from": "18",
+    "to": "20",
+    "type": "主动离岗",
+    "reference": "F3",
+    "source": "个人"
+  },
+  {
+    "check": "C10",
+    "subject": "P8",
+    "from": "24",
+    "to": "25",
+    "type": "在岗",
+    "reference": "F1",
+    "source": "个人"
+  },
+  {
+    "check": "C11",
+    "subject": "P9",
+    "from": "11",
+    "to": "13",
+    "type": "换岗未知",
+    "reference": "F3",
+    "source": "个人"
+  },
+  {
+    "check": "C12",
+    "subject": "P10",
+    "from": "24",
+    "to": "25",
+    "type": "在岗",
+    "reference": "F2",
+    "source": "名册"
+  }
+]

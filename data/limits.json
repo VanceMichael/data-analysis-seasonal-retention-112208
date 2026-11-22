@@ -1,0 +1,20 @@
+[
+  {
+    "slot": "周三",
+    "capacity": "1",
+    "review_day": "25",
+    "horizon": "21"
+  },
+  {
+    "slot": "周四",
+    "capacity": "1",
+    "review_day": "25",
+    "horizon": "21"
+  },
+  {
+    "slot": "周五",
+    "capacity": "1",
+    "review_day": "25",
+    "horizon": "21"
+  }
+]
