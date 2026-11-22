@@ -1,0 +1,30 @@
+[
+  {
+    "worker": "P2",
+    "source": "F1",
+    "scope": "本厂在岗",
+    "rev": "1",
+    "state": "授权"
+  },
+  {
+    "worker": "P2",
+    "source": "F1",
+    "scope": "本厂在岗",
+    "rev": "2",
+    "state": "撤回"
+  },
+  {
+    "worker": "P3",
+    "source": "F1",
+    "scope": "本厂在岗",
+    "rev": "1",
+    "state": "授权"
+  },
+  {
+    "worker": "P8",
+    "source": "F1",
+    "scope": "本厂在岗",
+    "rev": "1",
+    "state": "授权"
+  }
+]

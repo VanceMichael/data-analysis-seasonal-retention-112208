@@ -10,6 +10,9 @@ horizon 是报到后天数，review_day 是统计截点。正式报到可被有�
 - `checks.json` 记录字段为 `check`、`subject`、`from`、`to`、`type`、`reference`、`source`。
 - `appointments.json` 记录字段为 `appt`、`slot`、`type`、`target`、`touch`、`state`。
 - `limits.json` 记录字段为 `slot`、`capacity`、`review_day`、`horizon`。
+- `authorizations.json` 记录字段为 `worker`、`source`、`scope`、`rev`、`state`。
+- `contact_lists.json` 记录字段为 `id`、`recipient`、`workers`、`at`、`state`。
+- `followup_cases.json` 记录字段为 `case`、`worker`、`stage`、`rule`、`owner`。
 
 ## 运行
 

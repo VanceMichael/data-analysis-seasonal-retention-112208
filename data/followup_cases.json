@@ -1,0 +1,23 @@
+[
+  {
+    "case": "H1",
+    "worker": "P2",
+    "stage": "已受理",
+    "rule": "持续失联",
+    "owner": "乡甲"
+  },
+  {
+    "case": "H2",
+    "worker": "P6",
+    "stage": "待复核",
+    "rule": "合同结束",
+    "owner": "乡乙"
+  },
+  {
+    "case": "H3",
+    "worker": "P1",
+    "stage": "在办",
+    "rule": "连续转岗",
+    "owner": "乡甲"
+  }
+]

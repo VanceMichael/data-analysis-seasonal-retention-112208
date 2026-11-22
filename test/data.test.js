@@ -2,7 +2,7 @@ import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import { test } from 'node:test'
 
-const tableNames = ["workers", "checks", "appointments", "limits"]
+const tableNames = ["workers", "checks", "appointments", "limits", "authorizations", "contact_lists", "followup_cases"]
 const records = new Map()
 
 for (const name of tableNames) {
