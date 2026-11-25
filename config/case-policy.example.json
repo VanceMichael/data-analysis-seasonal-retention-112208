@@ -1,0 +1,13 @@
+{
+  "_comment": "示例政策：运行时用 --case-policy 传入，并替换为各乡正式确认的持续失联天数/登记次数。工具不会把本示例当作已确认规则。",
+  "townships": {
+    "乡甲": {
+      "lostContactDays": 7,
+      "lostContactRegistrations": 2
+    },
+    "乡乙": {
+      "lostContactDays": 7,
+      "lostContactRegistrations": 2
+    }
+  }
+}

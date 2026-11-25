@@ -1,0 +1,2536 @@
+{
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "policy": {
+    "reviewDay": 25,
+    "horizon": 21,
+    "slots": {}
+  },
+  "workerAssessments": [
+    {
+      "id": "P1",
+      "source": "乡甲",
+      "channel": "集体",
+      "reportRange": 1,
+      "horizonDue": [
+        22,
+        22
+      ],
+      "maturity": "mature",
+      "maturityZh": "已满观察期",
+      "horizonStatus": "unresolved",
+      "horizonStatusZh": "已满观察期但留岗结论待澄清",
+      "stable": null,
+      "currentStatus": "continuous_transfer_unverified_after",
+      "currentStatusZh": "连续换岗已核实，换岗后的在岗情况待回访",
+      "sameSpellAcrossTransfer": true,
+      "currentEmployerCandidates": [
+        "F2"
+      ],
+      "batchGapAffected": true,
+      "hadContactGap": false,
+      "excludedEvidence": []
+    },
+    {
+      "id": "P2",
+      "source": "乡甲",
+      "channel": "集体",
+      "reportRange": 2,
+      "horizonDue": [
+        23,
+        23
+      ],
+      "maturity": "mature",
+      "maturityZh": "已满观察期",
+      "horizonStatus": "unresolved",
+      "horizonStatusZh": "已满观察期但留岗结论待澄清",
+      "stable": null,
+      "currentStatus": "no_receipt",
+      "currentStatusZh": "名册无回执（不是失联或脱岗结论）",
+      "sameSpellAcrossTransfer": false,
+      "currentEmployerCandidates": [
+        "F1"
+      ],
+      "batchGapAffected": true,
+      "hadContactGap": false,
+      "excludedEvidence": []
+    },
+    {
+      "id": "P3",
+      "source": "乡乙",
+      "channel": "自行",
+      "reportRange": 8,
+      "horizonDue": [
+        29,
+        29
+      ],
+      "maturity": "immature",
+      "maturityZh": "尚未满观察期",
+      "horizonStatus": "not_observable",
+      "horizonStatusZh": "尚未满观察期",
+      "stable": null,
+      "currentStatus": "on_post",
+      "currentStatusZh": "回访截点有在岗凭证",
+      "sameSpellAcrossTransfer": false,
+      "currentEmployerCandidates": [
+        "F1"
+      ],
+      "batchGapAffected": true,
+      "hadContactGap": true,
+      "excludedEvidence": []
+    },
+    {
+      "id": "P4",
+      "source": "乡乙",
+      "channel": "集体",
+      "reportRange": [
+        10,
+        13
+      ],
+      "horizonDue": [
+        31,
+        34
+      ],
+      "maturity": "immature",
+      "maturityZh": "尚未满观察期",
+      "horizonStatus": "not_observable",
+      "horizonStatusZh": "尚未满观察期",
+      "stable": null,
+      "currentStatus": "report_verified_status_unknown",
+      "currentStatusZh": "实际报到区间已核实，报到后在岗情况未知",
+      "sameSpellAcrossTransfer": false,
+      "currentEmployerCandidates": [
+        "F2"
+      ],
+      "batchGapAffected": false,
+      "hadContactGap": false,
+      "excludedEvidence": []
+    },
+    {
+      "id": "P5",
+      "source": "乡甲",
+      "channel": "自行",
+      "reportRange": 23,
+      "horizonDue": [
+        44,
+        44
+      ],
+      "maturity": "immature",
+      "maturityZh": "尚未满观察期",
+      "horizonStatus": "not_observable",
+      "horizonStatusZh": "尚未满观察期",
+      "stable": null,
+      "currentStatus": "bounded_on_post",
+      "currentStatusZh": "仅知在岗日期落在可信区间内",
+      "sameSpellAcrossTransfer": false,
+      "currentEmployerCandidates": [
+        "F2"
+      ],
+      "batchGapAffected": false,
+      "hadContactGap": false,
+      "excludedEvidence": []
+    },
+    {
+      "id": "P6",
+      "source": "乡乙",
+      "channel": "集体",
+      "reportRange": 3,
+      "horizonDue": [
+        24,
+        24
+      ],
+      "maturity": "mature",
+      "maturityZh": "已满观察期",
+      "horizonStatus": "exited_contract",
+      "horizonStatusZh": "岗位期限前已协议结束",
+      "stable": false,
+      "currentStatus": "contract_ended",
+      "currentStatusZh": "协议结束",
+      "sameSpellAcrossTransfer": false,
+      "currentEmployerCandidates": [],
+      "batchGapAffected": false,
+      "hadContactGap": false,
+      "excludedEvidence": []
+    },
+    {
+      "id": "P7",
+      "source": "乡甲",
+      "channel": "自行",
+      "reportRange": 2,
+      "horizonDue": [
+        23,
+        23
+      ],
+      "maturity": "mature",
+      "maturityZh": "已满观察期",
+      "horizonStatus": "exited_voluntary",
+      "horizonStatusZh": "岗位期限前已主动离岗",
+      "stable": false,
+      "currentStatus": "voluntarily_left",
+      "currentStatusZh": "主动离岗",
+      "sameSpellAcrossTransfer": false,
+      "currentEmployerCandidates": [],
+      "batchGapAffected": false,
+      "hadContactGap": false,
+      "excludedEvidence": []
+    },
+    {
+      "id": "P8",
+      "source": "乡乙",
+      "channel": "集体",
+      "reportRange": 1,
+      "horizonDue": [
+        22,
+        22
+      ],
+      "maturity": "mature",
+      "maturityZh": "已满观察期",
+      "horizonStatus": "stable",
+      "horizonStatusZh": "已满期且有期满后/期满日在岗凭证",
+      "stable": true,
+      "currentStatus": "on_post",
+      "currentStatusZh": "回访截点有在岗凭证",
+      "sameSpellAcrossTransfer": false,
+      "currentEmployerCandidates": [
+        "F1"
+      ],
+      "batchGapAffected": true,
+      "hadContactGap": false,
+      "excludedEvidence": []
+    },
+    {
+      "id": "P9",
+      "source": "乡乙",
+      "channel": "自行",
+      "reportRange": 6,
+      "horizonDue": [
+        27,
+        27
+      ],
+      "maturity": "immature",
+      "maturityZh": "尚未满观察期",
+      "horizonStatus": "not_observable",
+      "horizonStatusZh": "尚未满观察期",
+      "stable": null,
+      "currentStatus": "unknown_transfer",
+      "currentStatusZh": "换岗情况未知",
+      "sameSpellAcrossTransfer": false,
+      "currentEmployerCandidates": [
+        "F2"
+      ],
+      "batchGapAffected": false,
+      "hadContactGap": false,
+      "excludedEvidence": []
+    },
+    {
+      "id": "P10",
+      "source": "乡甲",
+      "channel": "集体",
+      "reportRange": 5,
+      "horizonDue": [
+        26,
+        26
+      ],
+      "maturity": "immature",
+      "maturityZh": "尚未满观察期",
+      "horizonStatus": "not_observable",
+      "horizonStatusZh": "尚未满观察期",
+      "stable": null,
+      "currentStatus": "on_post",
+      "currentStatusZh": "回访截点有在岗凭证",
+      "sameSpellAcrossTransfer": false,
+      "currentEmployerCandidates": [
+        "F2"
+      ],
+      "batchGapAffected": false,
+      "hadContactGap": false,
+      "excludedEvidence": []
+    }
+  ],
+  "statistics": {
+    "generatedFor": "仅含来源地、输送方式等合成分组；不含个人编号",
+    "policy": {
+      "reviewDay": 25,
+      "horizon": 21,
+      "slots": {}
+    },
+    "tables": {
+      "source": [
+        {
+          "group": "乡甲",
+          "total": 5,
+          "maturity": {
+            "mature": 3,
+            "immature": 2,
+            "unknownReportInterval": 0
+          },
+          "horizonOutcomes": {
+            "stable": 0,
+            "exitedContract": 0,
+            "exitedVoluntary": 1,
+            "exitedTotal": 1,
+            "exitedKnownAll": 1,
+            "immatureButExited": 0,
+            "unresolved": 2
+          },
+          "allCohortSupportable": {
+            "denominator": 5,
+            "confirmedStable": 0,
+            "knownExited": 1,
+            "lowerRate": 0,
+            "upperRate": 0.8,
+            "noteZh": "全队列最宽范围：已知退出计为下限外，其余未满期/未澄清对象均保留为可能稳定，不能按未接电话记退出。"
+          },
+          "retentionAmongMature": {
+            "denominator": 3,
+            "confirmedLower": 0,
+            "supportableUpper": 2,
+            "lowerRate": 0,
+            "upperRate": 0.6667,
+            "pointRateIfAllResolvedStable": null
+          },
+          "directlyFollowedMature": {
+            "denominator": 2,
+            "stable": 0,
+            "exited": 1,
+            "unresolved": 1,
+            "lowerRate": 0,
+            "upperRate": 0.5,
+            "warningZh": "完整回访个案可能存在选择偏差，不能替代全组区间"
+          },
+          "currentStatusCounts": {
+            "onPost": 1,
+            "boundedOnPost": 1,
+            "contractEnded": 0,
+            "voluntarilyLeft": 1,
+            "contactInterrupted": 0,
+            "noReceipt": 1,
+            "unknownTransfer": 0,
+            "continuousTransferUnverifiedAfter": 1,
+            "reportVerifiedStatusUnknown": 0,
+            "unverified": 0
+          },
+          "batchMissing": {
+            "affected": 2,
+            "materialUnresolved": 2
+          },
+          "coverage": {
+            "personalFollowup": 2,
+            "personalFollowupRate": 0.4,
+            "phoneRegistered": 2,
+            "employerConsent": 2,
+            "activeEmployerGrant": 0,
+            "callableSomeSlot": 4,
+            "refusedOrMissingWindow": 1,
+            "maturePersonalFollowup": 2
+          },
+          "observation": {
+            "reportMin": 1,
+            "reportMax": 23,
+            "horizonDueMin": 22,
+            "horizonDueMax": 44,
+            "commonWindow": null,
+            "matureCommonWindow": {
+              "from": 2,
+              "to": 22
+            }
+          },
+          "conditions": [
+            {
+              "code": "group_values_registered",
+              "met": true,
+              "detailZh": "来源地与输送方式均已登记"
+            },
+            {
+              "code": "mature_observations_present",
+              "met": true,
+              "detailZh": "已满观察期 3 人"
+            },
+            {
+              "code": "minimum_mature_cell",
+              "met": true,
+              "required": 3,
+              "actual": 3,
+              "detailZh": "可做点估计的最低满期样本数为 3"
+            },
+            {
+              "code": "contact_windows_registered",
+              "met": false,
+              "actualMissing": 1,
+              "detailZh": "拒接或缺少可拨打星期的对象不能视为脱岗"
+            },
+            {
+              "code": "personal_followup_coverage",
+              "met": false,
+              "covered": 2,
+              "total": 5,
+              "detailZh": "个人回访覆盖情况；未覆盖只限制可支持范围"
+            },
+            {
+              "code": "employer_scopes_registered",
+              "met": false,
+              "employerConsent": 2,
+              "activeGrant": 0,
+              "detailZh": "雇主方式同意与有效授权范围需同时具备"
+            },
+            {
+              "code": "batch_gaps_disclosed",
+              "met": true,
+              "affected": 2,
+              "materialUnresolved": 2,
+              "detailZh": "同雇主整批漏报已单独显示，不按漏接电话处理"
+            }
+          ]
+        },
+        {
+          "group": "乡乙",
+          "total": 5,
+          "maturity": {
+            "mature": 2,
+            "immature": 3,
+            "unknownReportInterval": 0
+          },
+          "horizonOutcomes": {
+            "stable": 1,
+            "exitedContract": 1,
+            "exitedVoluntary": 0,
+            "exitedTotal": 1,
+            "exitedKnownAll": 1,
+            "immatureButExited": 0,
+            "unresolved": 0
+          },
+          "allCohortSupportable": {
+            "denominator": 5,
+            "confirmedStable": 1,
+            "knownExited": 1,
+            "lowerRate": 0.2,
+            "upperRate": 0.8,
+            "noteZh": "全队列最宽范围：已知退出计为下限外，其余未满期/未澄清对象均保留为可能稳定，不能按未接电话记退出。"
+          },
+          "retentionAmongMature": {
+            "denominator": 2,
+            "confirmedLower": 1,
+            "supportableUpper": 1,
+            "lowerRate": 0.5,
+            "upperRate": 0.5,
+            "pointRateIfAllResolvedStable": null
+          },
+          "directlyFollowedMature": {
+            "denominator": 1,
+            "stable": 1,
+            "exited": 0,
+            "unresolved": 0,
+            "lowerRate": 1,
+            "upperRate": 1,
+            "warningZh": "完整回访个案可能存在选择偏差，不能替代全组区间"
+          },
+          "currentStatusCounts": {
+            "onPost": 2,
+            "boundedOnPost": 0,
+            "contractEnded": 1,
+            "voluntarilyLeft": 0,
+            "contactInterrupted": 0,
+            "noReceipt": 0,
+            "unknownTransfer": 1,
+            "continuousTransferUnverifiedAfter": 0,
+            "reportVerifiedStatusUnknown": 1,
+            "unverified": 0
+          },
+          "batchMissing": {
+            "affected": 2,
+            "materialUnresolved": 0
+          },
+          "coverage": {
+            "personalFollowup": 4,
+            "personalFollowupRate": 0.8,
+            "phoneRegistered": 3,
+            "employerConsent": 3,
+            "activeEmployerGrant": 2,
+            "callableSomeSlot": 5,
+            "refusedOrMissingWindow": 0,
+            "maturePersonalFollowup": 1
+          },
+          "observation": {
+            "reportMin": 1,
+            "reportMax": 13,
+            "horizonDueMin": 22,
+            "horizonDueMax": 34,
+            "commonWindow": {
+              "from": 10,
+              "to": 22
+            },
+            "matureCommonWindow": {
+              "from": 3,
+              "to": 22
+            }
+          },
+          "conditions": [
+            {
+              "code": "group_values_registered",
+              "met": true,
+              "detailZh": "来源地与输送方式均已登记"
+            },
+            {
+              "code": "mature_observations_present",
+              "met": true,
+              "detailZh": "已满观察期 2 人"
+            },
+            {
+              "code": "minimum_mature_cell",
+              "met": false,
+              "required": 3,
+              "actual": 2,
+              "detailZh": "可做点估计的最低满期样本数为 3"
+            },
+            {
+              "code": "contact_windows_registered",
+              "met": true,
+              "actualMissing": 0,
+              "detailZh": "拒接或缺少可拨打星期的对象不能视为脱岗"
+            },
+            {
+              "code": "personal_followup_coverage",
+              "met": false,
+              "covered": 4,
+              "total": 5,
+              "detailZh": "个人回访覆盖情况；未覆盖只限制可支持范围"
+            },
+            {
+              "code": "employer_scopes_registered",
+              "met": false,
+              "employerConsent": 3,
+              "activeGrant": 2,
+              "detailZh": "雇主方式同意与有效授权范围需同时具备"
+            },
+            {
+              "code": "batch_gaps_disclosed",
+              "met": true,
+              "affected": 2,
+              "materialUnresolved": 0,
+              "detailZh": "同雇主整批漏报已单独显示，不按漏接电话处理"
+            }
+          ]
+        }
+      ],
+      "channel": [
+        {
+          "group": "集体",
+          "total": 6,
+          "maturity": {
+            "mature": 4,
+            "immature": 2,
+            "unknownReportInterval": 0
+          },
+          "horizonOutcomes": {
+            "stable": 1,
+            "exitedContract": 1,
+            "exitedVoluntary": 0,
+            "exitedTotal": 1,
+            "exitedKnownAll": 1,
+            "immatureButExited": 0,
+            "unresolved": 2
+          },
+          "allCohortSupportable": {
+            "denominator": 6,
+            "confirmedStable": 1,
+            "knownExited": 1,
+            "lowerRate": 0.1667,
+            "upperRate": 0.8333,
+            "noteZh": "全队列最宽范围：已知退出计为下限外，其余未满期/未澄清对象均保留为可能稳定，不能按未接电话记退出。"
+          },
+          "retentionAmongMature": {
+            "denominator": 4,
+            "confirmedLower": 1,
+            "supportableUpper": 3,
+            "lowerRate": 0.25,
+            "upperRate": 0.75,
+            "pointRateIfAllResolvedStable": null
+          },
+          "directlyFollowedMature": {
+            "denominator": 2,
+            "stable": 1,
+            "exited": 0,
+            "unresolved": 1,
+            "lowerRate": 0.5,
+            "upperRate": 1,
+            "warningZh": "完整回访个案可能存在选择偏差，不能替代全组区间"
+          },
+          "currentStatusCounts": {
+            "onPost": 2,
+            "boundedOnPost": 0,
+            "contractEnded": 1,
+            "voluntarilyLeft": 0,
+            "contactInterrupted": 0,
+            "noReceipt": 1,
+            "unknownTransfer": 0,
+            "continuousTransferUnverifiedAfter": 1,
+            "reportVerifiedStatusUnknown": 1,
+            "unverified": 0
+          },
+          "batchMissing": {
+            "affected": 3,
+            "materialUnresolved": 2
+          },
+          "coverage": {
+            "personalFollowup": 3,
+            "personalFollowupRate": 0.5,
+            "phoneRegistered": 2,
+            "employerConsent": 4,
+            "activeEmployerGrant": 1,
+            "callableSomeSlot": 6,
+            "refusedOrMissingWindow": 0,
+            "maturePersonalFollowup": 2
+          },
+          "observation": {
+            "reportMin": 1,
+            "reportMax": 13,
+            "horizonDueMin": 22,
+            "horizonDueMax": 34,
+            "commonWindow": {
+              "from": 10,
+              "to": 22
+            },
+            "matureCommonWindow": {
+              "from": 3,
+              "to": 22
+            }
+          },
+          "conditions": [
+            {
+              "code": "group_values_registered",
+              "met": true,
+              "detailZh": "来源地与输送方式均已登记"
+            },
+            {
+              "code": "mature_observations_present",
+              "met": true,
+              "detailZh": "已满观察期 4 人"
+            },
+            {
+              "code": "minimum_mature_cell",
+              "met": true,
+              "required": 3,
+              "actual": 4,
+              "detailZh": "可做点估计的最低满期样本数为 3"
+            },
+            {
+              "code": "contact_windows_registered",
+              "met": true,
+              "actualMissing": 0,
+              "detailZh": "拒接或缺少可拨打星期的对象不能视为脱岗"
+            },
+            {
+              "code": "personal_followup_coverage",
+              "met": false,
+              "covered": 3,
+              "total": 6,
+              "detailZh": "个人回访覆盖情况；未覆盖只限制可支持范围"
+            },
+            {
+              "code": "employer_scopes_registered",
+              "met": false,
+              "employerConsent": 4,
+              "activeGrant": 1,
+              "detailZh": "雇主方式同意与有效授权范围需同时具备"
+            },
+            {
+              "code": "batch_gaps_disclosed",
+              "met": true,
+              "affected": 3,
+              "materialUnresolved": 2,
+              "detailZh": "同雇主整批漏报已单独显示，不按漏接电话处理"
+            }
+          ]
+        },
+        {
+          "group": "自行",
+          "total": 4,
+          "maturity": {
+            "mature": 1,
+            "immature": 3,
+            "unknownReportInterval": 0
+          },
+          "horizonOutcomes": {
+            "stable": 0,
+            "exitedContract": 0,
+            "exitedVoluntary": 1,
+            "exitedTotal": 1,
+            "exitedKnownAll": 1,
+            "immatureButExited": 0,
+            "unresolved": 0
+          },
+          "allCohortSupportable": {
+            "denominator": 4,
+            "confirmedStable": 0,
+            "knownExited": 1,
+            "lowerRate": 0,
+            "upperRate": 0.75,
+            "noteZh": "全队列最宽范围：已知退出计为下限外，其余未满期/未澄清对象均保留为可能稳定，不能按未接电话记退出。"
+          },
+          "retentionAmongMature": {
+            "denominator": 1,
+            "confirmedLower": 0,
+            "supportableUpper": 0,
+            "lowerRate": 0,
+            "upperRate": 0,
+            "pointRateIfAllResolvedStable": null
+          },
+          "directlyFollowedMature": {
+            "denominator": 1,
+            "stable": 0,
+            "exited": 1,
+            "unresolved": 0,
+            "lowerRate": 0,
+            "upperRate": 0,
+            "warningZh": "完整回访个案可能存在选择偏差，不能替代全组区间"
+          },
+          "currentStatusCounts": {
+            "onPost": 1,
+            "boundedOnPost": 1,
+            "contractEnded": 0,
+            "voluntarilyLeft": 1,
+            "contactInterrupted": 0,
+            "noReceipt": 0,
+            "unknownTransfer": 1,
+            "continuousTransferUnverifiedAfter": 0,
+            "reportVerifiedStatusUnknown": 0,
+            "unverified": 0
+          },
+          "batchMissing": {
+            "affected": 1,
+            "materialUnresolved": 0
+          },
+          "coverage": {
+            "personalFollowup": 3,
+            "personalFollowupRate": 0.75,
+            "phoneRegistered": 3,
+            "employerConsent": 1,
+            "activeEmployerGrant": 1,
+            "callableSomeSlot": 3,
+            "refusedOrMissingWindow": 1,
+            "maturePersonalFollowup": 1
+          },
+          "observation": {
+            "reportMin": 2,
+            "reportMax": 23,
+            "horizonDueMin": 23,
+            "horizonDueMax": 44,
+            "commonWindow": {
+              "from": 23,
+              "to": 23
+            },
+            "matureCommonWindow": {
+              "from": 2,
+              "to": 23
+            }
+          },
+          "conditions": [
+            {
+              "code": "group_values_registered",
+              "met": true,
+              "detailZh": "来源地与输送方式均已登记"
+            },
+            {
+              "code": "mature_observations_present",
+              "met": true,
+              "detailZh": "已满观察期 1 人"
+            },
+            {
+              "code": "minimum_mature_cell",
+              "met": false,
+              "required": 3,
+              "actual": 1,
+              "detailZh": "可做点估计的最低满期样本数为 3"
+            },
+            {
+              "code": "contact_windows_registered",
+              "met": false,
+              "actualMissing": 1,
+              "detailZh": "拒接或缺少可拨打星期的对象不能视为脱岗"
+            },
+            {
+              "code": "personal_followup_coverage",
+              "met": false,
+              "covered": 3,
+              "total": 4,
+              "detailZh": "个人回访覆盖情况；未覆盖只限制可支持范围"
+            },
+            {
+              "code": "employer_scopes_registered",
+              "met": true,
+              "employerConsent": 1,
+              "activeGrant": 1,
+              "detailZh": "雇主方式同意与有效授权范围需同时具备"
+            },
+            {
+              "code": "batch_gaps_disclosed",
+              "met": true,
+              "affected": 1,
+              "materialUnresolved": 0,
+              "detailZh": "同雇主整批漏报已单独显示，不按漏接电话处理"
+            }
+          ]
+        }
+      ],
+      "source_channel": [
+        {
+          "group": "乡甲 / 集体",
+          "total": 3,
+          "maturity": {
+            "mature": 2,
+            "immature": 1,
+            "unknownReportInterval": 0
+          },
+          "horizonOutcomes": {
+            "stable": 0,
+            "exitedContract": 0,
+            "exitedVoluntary": 0,
+            "exitedTotal": 0,
+            "exitedKnownAll": 0,
+            "immatureButExited": 0,
+            "unresolved": 2
+          },
+          "allCohortSupportable": {
+            "denominator": 3,
+            "confirmedStable": 0,
+            "knownExited": 0,
+            "lowerRate": 0,
+            "upperRate": 1,
+            "noteZh": "全队列最宽范围：已知退出计为下限外，其余未满期/未澄清对象均保留为可能稳定，不能按未接电话记退出。"
+          },
+          "retentionAmongMature": {
+            "denominator": 2,
+            "confirmedLower": 0,
+            "supportableUpper": 2,
+            "lowerRate": 0,
+            "upperRate": 1,
+            "pointRateIfAllResolvedStable": null
+          },
+          "directlyFollowedMature": {
+            "denominator": 1,
+            "stable": 0,
+            "exited": 0,
+            "unresolved": 1,
+            "lowerRate": 0,
+            "upperRate": 1,
+            "warningZh": "完整回访个案可能存在选择偏差，不能替代全组区间"
+          },
+          "currentStatusCounts": {
+            "onPost": 1,
+            "boundedOnPost": 0,
+            "contractEnded": 0,
+            "voluntarilyLeft": 0,
+            "contactInterrupted": 0,
+            "noReceipt": 1,
+            "unknownTransfer": 0,
+            "continuousTransferUnverifiedAfter": 1,
+            "reportVerifiedStatusUnknown": 0,
+            "unverified": 0
+          },
+          "batchMissing": {
+            "affected": 2,
+            "materialUnresolved": 2
+          },
+          "coverage": {
+            "personalFollowup": 1,
+            "personalFollowupRate": 0.3333,
+            "phoneRegistered": 1,
+            "employerConsent": 2,
+            "activeEmployerGrant": 0,
+            "callableSomeSlot": 3,
+            "refusedOrMissingWindow": 0,
+            "maturePersonalFollowup": 1
+          },
+          "observation": {
+            "reportMin": 1,
+            "reportMax": 5,
+            "horizonDueMin": 22,
+            "horizonDueMax": 26,
+            "commonWindow": {
+              "from": 5,
+              "to": 22
+            },
+            "matureCommonWindow": {
+              "from": 2,
+              "to": 22
+            }
+          },
+          "conditions": [
+            {
+              "code": "group_values_registered",
+              "met": true,
+              "detailZh": "来源地与输送方式均已登记"
+            },
+            {
+              "code": "mature_observations_present",
+              "met": true,
+              "detailZh": "已满观察期 2 人"
+            },
+            {
+              "code": "minimum_mature_cell",
+              "met": false,
+              "required": 3,
+              "actual": 2,
+              "detailZh": "可做点估计的最低满期样本数为 3"
+            },
+            {
+              "code": "contact_windows_registered",
+              "met": true,
+              "actualMissing": 0,
+              "detailZh": "拒接或缺少可拨打星期的对象不能视为脱岗"
+            },
+            {
+              "code": "personal_followup_coverage",
+              "met": false,
+              "covered": 1,
+              "total": 3,
+              "detailZh": "个人回访覆盖情况；未覆盖只限制可支持范围"
+            },
+            {
+              "code": "employer_scopes_registered",
+              "met": false,
+              "employerConsent": 2,
+              "activeGrant": 0,
+              "detailZh": "雇主方式同意与有效授权范围需同时具备"
+            },
+            {
+              "code": "batch_gaps_disclosed",
+              "met": true,
+              "affected": 2,
+              "materialUnresolved": 2,
+              "detailZh": "同雇主整批漏报已单独显示，不按漏接电话处理"
+            }
+          ]
+        },
+        {
+          "group": "乡甲 / 自行",
+          "total": 2,
+          "maturity": {
+            "mature": 1,
+            "immature": 1,
+            "unknownReportInterval": 0
+          },
+          "horizonOutcomes": {
+            "stable": 0,
+            "exitedContract": 0,
+            "exitedVoluntary": 1,
+            "exitedTotal": 1,
+            "exitedKnownAll": 1,
+            "immatureButExited": 0,
+            "unresolved": 0
+          },
+          "allCohortSupportable": {
+            "denominator": 2,
+            "confirmedStable": 0,
+            "knownExited": 1,
+            "lowerRate": 0,
+            "upperRate": 0.5,
+            "noteZh": "全队列最宽范围：已知退出计为下限外，其余未满期/未澄清对象均保留为可能稳定，不能按未接电话记退出。"
+          },
+          "retentionAmongMature": {
+            "denominator": 1,
+            "confirmedLower": 0,
+            "supportableUpper": 0,
+            "lowerRate": 0,
+            "upperRate": 0,
+            "pointRateIfAllResolvedStable": null
+          },
+          "directlyFollowedMature": {
+            "denominator": 1,
+            "stable": 0,
+            "exited": 1,
+            "unresolved": 0,
+            "lowerRate": 0,
+            "upperRate": 0,
+            "warningZh": "完整回访个案可能存在选择偏差，不能替代全组区间"
+          },
+          "currentStatusCounts": {
+            "onPost": 0,
+            "boundedOnPost": 1,
+            "contractEnded": 0,
+            "voluntarilyLeft": 1,
+            "contactInterrupted": 0,
+            "noReceipt": 0,
+            "unknownTransfer": 0,
+            "continuousTransferUnverifiedAfter": 0,
+            "reportVerifiedStatusUnknown": 0,
+            "unverified": 0
+          },
+          "batchMissing": {
+            "affected": 0,
+            "materialUnresolved": 0
+          },
+          "coverage": {
+            "personalFollowup": 1,
+            "personalFollowupRate": 0.5,
+            "phoneRegistered": 1,
+            "employerConsent": 0,
+            "activeEmployerGrant": 0,
+            "callableSomeSlot": 1,
+            "refusedOrMissingWindow": 1,
+            "maturePersonalFollowup": 1
+          },
+          "observation": {
+            "reportMin": 2,
+            "reportMax": 23,
+            "horizonDueMin": 23,
+            "horizonDueMax": 44,
+            "commonWindow": {
+              "from": 23,
+              "to": 23
+            },
+            "matureCommonWindow": {
+              "from": 2,
+              "to": 23
+            }
+          },
+          "conditions": [
+            {
+              "code": "group_values_registered",
+              "met": true,
+              "detailZh": "来源地与输送方式均已登记"
+            },
+            {
+              "code": "mature_observations_present",
+              "met": true,
+              "detailZh": "已满观察期 1 人"
+            },
+            {
+              "code": "minimum_mature_cell",
+              "met": false,
+              "required": 3,
+              "actual": 1,
+              "detailZh": "可做点估计的最低满期样本数为 3"
+            },
+            {
+              "code": "contact_windows_registered",
+              "met": false,
+              "actualMissing": 1,
+              "detailZh": "拒接或缺少可拨打星期的对象不能视为脱岗"
+            },
+            {
+              "code": "personal_followup_coverage",
+              "met": false,
+              "covered": 1,
+              "total": 2,
+              "detailZh": "个人回访覆盖情况；未覆盖只限制可支持范围"
+            },
+            {
+              "code": "employer_scopes_registered",
+              "met": true,
+              "employerConsent": 0,
+              "activeGrant": 0,
+              "detailZh": "雇主方式同意与有效授权范围需同时具备"
+            },
+            {
+              "code": "batch_gaps_disclosed",
+              "met": true,
+              "affected": 0,
+              "materialUnresolved": 0,
+              "detailZh": "同雇主整批漏报已单独显示，不按漏接电话处理"
+            }
+          ]
+        },
+        {
+          "group": "乡乙 / 集体",
+          "total": 3,
+          "maturity": {
+            "mature": 2,
+            "immature": 1,
+            "unknownReportInterval": 0
+          },
+          "horizonOutcomes": {
+            "stable": 1,
+            "exitedContract": 1,
+            "exitedVoluntary": 0,
+            "exitedTotal": 1,
+            "exitedKnownAll": 1,
+            "immatureButExited": 0,
+            "unresolved": 0
+          },
+          "allCohortSupportable": {
+            "denominator": 3,
+            "confirmedStable": 1,
+            "knownExited": 1,
+            "lowerRate": 0.3333,
+            "upperRate": 0.6667,
+            "noteZh": "全队列最宽范围：已知退出计为下限外，其余未满期/未澄清对象均保留为可能稳定，不能按未接电话记退出。"
+          },
+          "retentionAmongMature": {
+            "denominator": 2,
+            "confirmedLower": 1,
+            "supportableUpper": 1,
+            "lowerRate": 0.5,
+            "upperRate": 0.5,
+            "pointRateIfAllResolvedStable": null
+          },
+          "directlyFollowedMature": {
+            "denominator": 1,
+            "stable": 1,
+            "exited": 0,
+            "unresolved": 0,
+            "lowerRate": 1,
+            "upperRate": 1,
+            "warningZh": "完整回访个案可能存在选择偏差，不能替代全组区间"
+          },
+          "currentStatusCounts": {
+            "onPost": 1,
+            "boundedOnPost": 0,
+            "contractEnded": 1,
+            "voluntarilyLeft": 0,
+            "contactInterrupted": 0,
+            "noReceipt": 0,
+            "unknownTransfer": 0,
+            "continuousTransferUnverifiedAfter": 0,
+            "reportVerifiedStatusUnknown": 1,
+            "unverified": 0
+          },
+          "batchMissing": {
+            "affected": 1,
+            "materialUnresolved": 0
+          },
+          "coverage": {
+            "personalFollowup": 2,
+            "personalFollowupRate": 0.6667,
+            "phoneRegistered": 1,
+            "employerConsent": 2,
+            "activeEmployerGrant": 1,
+            "callableSomeSlot": 3,
+            "refusedOrMissingWindow": 0,
+            "maturePersonalFollowup": 1
+          },
+          "observation": {
+            "reportMin": 1,
+            "reportMax": 13,
+            "horizonDueMin": 22,
+            "horizonDueMax": 34,
+            "commonWindow": {
+              "from": 10,
+              "to": 22
+            },
+            "matureCommonWindow": {
+              "from": 3,
+              "to": 22
+            }
+          },
+          "conditions": [
+            {
+              "code": "group_values_registered",
+              "met": true,
+              "detailZh": "来源地与输送方式均已登记"
+            },
+            {
+              "code": "mature_observations_present",
+              "met": true,
+              "detailZh": "已满观察期 2 人"
+            },
+            {
+              "code": "minimum_mature_cell",
+              "met": false,
+              "required": 3,
+              "actual": 2,
+              "detailZh": "可做点估计的最低满期样本数为 3"
+            },
+            {
+              "code": "contact_windows_registered",
+              "met": true,
+              "actualMissing": 0,
+              "detailZh": "拒接或缺少可拨打星期的对象不能视为脱岗"
+            },
+            {
+              "code": "personal_followup_coverage",
+              "met": false,
+              "covered": 2,
+              "total": 3,
+              "detailZh": "个人回访覆盖情况；未覆盖只限制可支持范围"
+            },
+            {
+              "code": "employer_scopes_registered",
+              "met": false,
+              "employerConsent": 2,
+              "activeGrant": 1,
+              "detailZh": "雇主方式同意与有效授权范围需同时具备"
+            },
+            {
+              "code": "batch_gaps_disclosed",
+              "met": true,
+              "affected": 1,
+              "materialUnresolved": 0,
+              "detailZh": "同雇主整批漏报已单独显示，不按漏接电话处理"
+            }
+          ]
+        },
+        {
+          "group": "乡乙 / 自行",
+          "total": 2,
+          "maturity": {
+            "mature": 0,
+            "immature": 2,
+            "unknownReportInterval": 0
+          },
+          "horizonOutcomes": {
+            "stable": 0,
+            "exitedContract": 0,
+            "exitedVoluntary": 0,
+            "exitedTotal": 0,
+            "exitedKnownAll": 0,
+            "immatureButExited": 0,
+            "unresolved": 0
+          },
+          "allCohortSupportable": {
+            "denominator": 2,
+            "confirmedStable": 0,
+            "knownExited": 0,
+            "lowerRate": 0,
+            "upperRate": 1,
+            "noteZh": "全队列最宽范围：已知退出计为下限外，其余未满期/未澄清对象均保留为可能稳定，不能按未接电话记退出。"
+          },
+          "retentionAmongMature": {
+            "denominator": 0,
+            "confirmedLower": 0,
+            "supportableUpper": 0,
+            "lowerRate": null,
+            "upperRate": null,
+            "pointRateIfAllResolvedStable": null
+          },
+          "directlyFollowedMature": {
+            "denominator": 0,
+            "stable": 0,
+            "exited": 0,
+            "unresolved": 0,
+            "lowerRate": null,
+            "upperRate": null,
+            "warningZh": "完整回访个案可能存在选择偏差，不能替代全组区间"
+          },
+          "currentStatusCounts": {
+            "onPost": 1,
+            "boundedOnPost": 0,
+            "contractEnded": 0,
+            "voluntarilyLeft": 0,
+            "contactInterrupted": 0,
+            "noReceipt": 0,
+            "unknownTransfer": 1,
+            "continuousTransferUnverifiedAfter": 0,
+            "reportVerifiedStatusUnknown": 0,
+            "unverified": 0
+          },
+          "batchMissing": {
+            "affected": 1,
+            "materialUnresolved": 0
+          },
+          "coverage": {
+            "personalFollowup": 2,
+            "personalFollowupRate": 1,
+            "phoneRegistered": 2,
+            "employerConsent": 1,
+            "activeEmployerGrant": 1,
+            "callableSomeSlot": 2,
+            "refusedOrMissingWindow": 0,
+            "maturePersonalFollowup": 0
+          },
+          "observation": {
+            "reportMin": 6,
+            "reportMax": 8,
+            "horizonDueMin": 27,
+            "horizonDueMax": 29,
+            "commonWindow": {
+              "from": 8,
+              "to": 27
+            },
+            "matureCommonWindow": null
+          },
+          "conditions": [
+            {
+              "code": "group_values_registered",
+              "met": true,
+              "detailZh": "来源地与输送方式均已登记"
+            },
+            {
+              "code": "mature_observations_present",
+              "met": false,
+              "detailZh": "已满观察期 0 人"
+            },
+            {
+              "code": "minimum_mature_cell",
+              "met": false,
+              "required": 3,
+              "actual": 0,
+              "detailZh": "可做点估计的最低满期样本数为 3"
+            },
+            {
+              "code": "contact_windows_registered",
+              "met": true,
+              "actualMissing": 0,
+              "detailZh": "拒接或缺少可拨打星期的对象不能视为脱岗"
+            },
+            {
+              "code": "personal_followup_coverage",
+              "met": true,
+              "covered": 2,
+              "total": 2,
+              "detailZh": "个人回访覆盖情况；未覆盖只限制可支持范围"
+            },
+            {
+              "code": "employer_scopes_registered",
+              "met": true,
+              "employerConsent": 1,
+              "activeGrant": 1,
+              "detailZh": "雇主方式同意与有效授权范围需同时具备"
+            },
+            {
+              "code": "batch_gaps_disclosed",
+              "met": true,
+              "affected": 1,
+              "materialUnresolved": 0,
+              "detailZh": "同雇主整批漏报已单独显示，不按漏接电话处理"
+            }
+          ]
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "dimension": "source",
+        "groups": [
+          "乡甲",
+          "乡乙"
+        ],
+        "overlap": {
+          "from": 3,
+          "to": 22
+        },
+        "canPointCompare": false,
+        "resultType": "bounds_and_registration_warnings_only",
+        "conditions": [
+          {
+            "code": "same_review_day_and_horizon",
+            "met": true,
+            "reviewDay": 25,
+            "horizon": 21
+          },
+          {
+            "code": "mature_in_every_group",
+            "met": true,
+            "matureCounts": [
+              3,
+              2
+            ]
+          },
+          {
+            "code": "mature_windows_overlap",
+            "met": true,
+            "overlap": {
+              "from": 3,
+              "to": 22
+            }
+          },
+          {
+            "code": "no_group_has_registration_gap",
+            "met": false
+          },
+          {
+            "code": "followup_coverage_measured",
+            "met": true,
+            "rates": [
+              0.4,
+              0.8
+            ]
+          },
+          {
+            "code": "followup_coverage_gap_within_policy",
+            "met": true,
+            "gap": 0.4,
+            "maxAllowedGap": 1,
+            "detailZh": "阈值由评估政策指定；未满足时只能并列覆盖区间，不能把覆盖差异解释为留岗差异"
+          },
+          {
+            "code": "withdrawn_uses_excluded",
+            "met": true,
+            "excludedEvidence": 0
+          }
+        ],
+        "messageZh": "登记或观察条件未完全满足；只能并列可支持区间并说明未满足条件，不能作简单排名。"
+      },
+      {
+        "dimension": "channel",
+        "groups": [
+          "集体",
+          "自行"
+        ],
+        "overlap": {
+          "from": 3,
+          "to": 22
+        },
+        "canPointCompare": false,
+        "resultType": "bounds_and_registration_warnings_only",
+        "conditions": [
+          {
+            "code": "same_review_day_and_horizon",
+            "met": true,
+            "reviewDay": 25,
+            "horizon": 21
+          },
+          {
+            "code": "mature_in_every_group",
+            "met": true,
+            "matureCounts": [
+              4,
+              1
+            ]
+          },
+          {
+            "code": "mature_windows_overlap",
+            "met": true,
+            "overlap": {
+              "from": 3,
+              "to": 22
+            }
+          },
+          {
+            "code": "no_group_has_registration_gap",
+            "met": false
+          },
+          {
+            "code": "followup_coverage_measured",
+            "met": true,
+            "rates": [
+              0.5,
+              0.75
+            ]
+          },
+          {
+            "code": "followup_coverage_gap_within_policy",
+            "met": true,
+            "gap": 0.25,
+            "maxAllowedGap": 1,
+            "detailZh": "阈值由评估政策指定；未满足时只能并列覆盖区间，不能把覆盖差异解释为留岗差异"
+          },
+          {
+            "code": "withdrawn_uses_excluded",
+            "met": true,
+            "excludedEvidence": 0
+          }
+        ],
+        "messageZh": "登记或观察条件未完全满足；只能并列可支持区间并说明未满足条件，不能作简单排名。"
+      }
+    ]
+  },
+  "cases": {
+    "preservedCases": [
+      {
+        "case": "H1",
+        "worker": "P2",
+        "stage": "已受理",
+        "rule": "持续失联",
+        "owner": "乡甲",
+        "ownerPreserved": true,
+        "originalResponsiblePointContinues": true,
+        "township": "乡甲",
+        "publicRule": "持续失联",
+        "verifiableFacts": [],
+        "ruleCheck": {
+          "configured": false,
+          "match": "any",
+          "registrationCount": 0,
+          "historicalLongestDays": 0,
+          "longestUnresolvedDays": 0,
+          "requiredDays": null,
+          "requiredRegistrations": null,
+          "met": false,
+          "currentlyResolved": false,
+          "evidence": []
+        }
+      },
+      {
+        "case": "H2",
+        "worker": "P6",
+        "stage": "待复核",
+        "rule": "合同结束",
+        "owner": "乡乙",
+        "ownerPreserved": true,
+        "originalResponsiblePointContinues": true,
+        "township": "乡乙",
+        "publicRule": "合同结束",
+        "verifiableFacts": [
+          "C6"
+        ],
+        "ruleCheck": {
+          "met": true,
+          "basis": "contract_end_record"
+        }
+      },
+      {
+        "case": "H3",
+        "worker": "P1",
+        "stage": "在办",
+        "rule": "连续转岗",
+        "owner": "乡甲",
+        "ownerPreserved": true,
+        "originalResponsiblePointContinues": true,
+        "township": "乡甲",
+        "publicRule": "连续转岗",
+        "verifiableFacts": [],
+        "ruleCheck": {
+          "met": false,
+          "basis": "not_county_automatic_trigger",
+          "noteZh": "连续转岗等已受理个案继续原责任点工作，但不新增县级帮扶触发"
+        }
+      }
+    ],
+    "proposals": [],
+    "assistanceUnits": [
+      {
+        "worker": "P6",
+        "owner": "乡乙",
+        "existingCase": "H2",
+        "stage": "待复核",
+        "triggers": [
+          {
+            "rule": "合同结束",
+            "met": true,
+            "evidence": [
+              "C6"
+            ]
+          }
+        ],
+        "sourceCount": 1,
+        "assistanceCount": 1,
+        "duplicateSourcesCollapsed": true
+      }
+    ],
+    "publicPolicyZh": "县级帮扶仅因可核实的合同结束，或达到务工对象所属乡确认阈值的持续失联登记而生效。"
+  },
+  "priorities": [
+    {
+      "worker": "P1",
+      "weight": 150,
+      "reasons": [
+        "已有受理个案，原责任点继续",
+        "结论可被近期核验改变",
+        "来源缺口：限制结论，不形成个人落后标签"
+      ],
+      "hasOpenServiceCase": true,
+      "countyPlanTriggered": false,
+      "eligibleForHelp": true,
+      "coverageGapOnly": false
+    },
+    {
+      "worker": "P2",
+      "weight": 150,
+      "reasons": [
+        "已有受理个案，原责任点继续",
+        "结论可被近期核验改变",
+        "来源缺口：限制结论，不形成个人落后标签"
+      ],
+      "hasOpenServiceCase": true,
+      "countyPlanTriggered": false,
+      "eligibleForHelp": true,
+      "coverageGapOnly": false
+    },
+    {
+      "worker": "P3",
+      "weight": 0,
+      "reasons": [
+        "来源缺口：限制结论，不形成个人落后标签"
+      ],
+      "hasOpenServiceCase": false,
+      "countyPlanTriggered": false,
+      "eligibleForHelp": false,
+      "coverageGapOnly": false
+    },
+    {
+      "worker": "P4",
+      "weight": 0,
+      "reasons": [],
+      "hasOpenServiceCase": false,
+      "countyPlanTriggered": false,
+      "eligibleForHelp": false,
+      "coverageGapOnly": true
+    },
+    {
+      "worker": "P5",
+      "weight": 0,
+      "reasons": [],
+      "hasOpenServiceCase": false,
+      "countyPlanTriggered": false,
+      "eligibleForHelp": false,
+      "coverageGapOnly": true
+    },
+    {
+      "worker": "P6",
+      "weight": 180,
+      "reasons": [
+        "已有受理个案，原责任点继续",
+        "帮扶规则已由可核实事实触发"
+      ],
+      "hasOpenServiceCase": true,
+      "countyPlanTriggered": true,
+      "eligibleForHelp": true,
+      "coverageGapOnly": false
+    },
+    {
+      "worker": "P7",
+      "weight": 0,
+      "reasons": [],
+      "hasOpenServiceCase": false,
+      "countyPlanTriggered": false,
+      "eligibleForHelp": false,
+      "coverageGapOnly": false
+    },
+    {
+      "worker": "P8",
+      "weight": 0,
+      "reasons": [
+        "来源缺口：限制结论，不形成个人落后标签"
+      ],
+      "hasOpenServiceCase": false,
+      "countyPlanTriggered": false,
+      "eligibleForHelp": false,
+      "coverageGapOnly": false
+    },
+    {
+      "worker": "P9",
+      "weight": 65,
+      "reasons": [
+        "换岗连续性待澄清",
+        "三个统计日内进入观察期满点"
+      ],
+      "hasOpenServiceCase": false,
+      "countyPlanTriggered": false,
+      "eligibleForHelp": false,
+      "coverageGapOnly": false
+    },
+    {
+      "worker": "P10",
+      "weight": 25,
+      "reasons": [
+        "三个统计日内进入观察期满点"
+      ],
+      "hasOpenServiceCase": false,
+      "countyPlanTriggered": false,
+      "eligibleForHelp": false,
+      "coverageGapOnly": false
+    }
+  ],
+  "schedule": {
+    "slots": [
+      {
+        "slot": "周三",
+        "capacity": 1,
+        "used": 1,
+        "remaining": 0,
+        "scheduled": [
+          {
+            "apptId": "A1",
+            "actionKey": "personal:P1:周三",
+            "kind": "个人核验",
+            "type": "个人",
+            "slot": "周三",
+            "target": "P1",
+            "firm": null,
+            "workerIds": [
+              "P1"
+            ],
+            "denied": [],
+            "score": 155,
+            "freshNeeds": [
+              "horizon_status:P1"
+            ],
+            "decisions": [
+              "retention:P1",
+              "stat:source:乡甲",
+              "stat:channel:集体",
+              "service:P1"
+            ],
+            "candidate": false,
+            "held": true
+          }
+        ],
+        "waitlisted": [],
+        "notNeeded": []
+      },
+      {
+        "slot": "周四",
+        "capacity": 1,
+        "used": 1,
+        "remaining": 0,
+        "scheduled": [
+          {
+            "apptId": null,
+            "actionKey": "personal:P9:周四",
+            "kind": "个人核验",
+            "type": "个人",
+            "slot": "周四",
+            "target": "P9",
+            "firm": null,
+            "workerIds": [
+              "P9"
+            ],
+            "denied": [],
+            "score": 163,
+            "freshNeeds": [
+              "pre_horizon_status:P9",
+              "transfer_clarification:P9"
+            ],
+            "decisions": [
+              "future_retention:P9",
+              "stat:source:乡乙",
+              "stat:channel:自行",
+              "spell_continuity:P9",
+              "service:P9"
+            ],
+            "candidate": false,
+            "held": false
+          }
+        ],
+        "waitlisted": [
+          {
+            "apptId": "A4",
+            "actionKey": "personal:P4:周四",
+            "slot": "周四",
+            "target": "P4",
+            "workerIds": [
+              "P4"
+            ],
+            "score": 65,
+            "reasonZh": "该时段容量已由已约或更高共享价值核验占用"
+          }
+        ],
+        "notNeeded": [
+          {
+            "apptId": null,
+            "actionKey": "personal:P7:周四",
+            "slot": "周四",
+            "target": "P7",
+            "workerIds": [
+              "P7"
+            ],
+            "reasonZh": "现有可核实记录已足够支持当前结论，不再占用跟访次数"
+          }
+        ]
+      },
+      {
+        "slot": "周五",
+        "capacity": 1,
+        "used": 1,
+        "remaining": 0,
+        "scheduled": [
+          {
+            "apptId": "A3",
+            "actionKey": "employer:F1:周五",
+            "kind": "雇主批量核验",
+            "type": "雇主",
+            "slot": "周五",
+            "target": "F1",
+            "firm": "F1",
+            "workerIds": [
+              "P3",
+              "P8"
+            ],
+            "denied": [
+              {
+                "worker": "P2",
+                "reason": "no_active_authorization"
+              }
+            ],
+            "score": 65,
+            "freshNeeds": [
+              "pre_horizon_status:P3"
+            ],
+            "decisions": [
+              "future_retention:P3",
+              "stat:source:乡乙",
+              "stat:channel:自行"
+            ],
+            "candidate": true,
+            "held": false
+          }
+        ],
+        "waitlisted": [],
+        "notNeeded": []
+      }
+    ],
+    "scheduled": [
+      {
+        "apptId": "A1",
+        "actionKey": "personal:P1:周三",
+        "kind": "个人核验",
+        "type": "个人",
+        "slot": "周三",
+        "target": "P1",
+        "firm": null,
+        "workerIds": [
+          "P1"
+        ],
+        "denied": [],
+        "score": 155,
+        "freshNeeds": [
+          "horizon_status:P1"
+        ],
+        "decisions": [
+          "retention:P1",
+          "stat:source:乡甲",
+          "stat:channel:集体",
+          "service:P1"
+        ],
+        "candidate": false,
+        "held": true
+      },
+      {
+        "apptId": null,
+        "actionKey": "personal:P9:周四",
+        "kind": "个人核验",
+        "type": "个人",
+        "slot": "周四",
+        "target": "P9",
+        "firm": null,
+        "workerIds": [
+          "P9"
+        ],
+        "denied": [],
+        "score": 163,
+        "freshNeeds": [
+          "pre_horizon_status:P9",
+          "transfer_clarification:P9"
+        ],
+        "decisions": [
+          "future_retention:P9",
+          "stat:source:乡乙",
+          "stat:channel:自行",
+          "spell_continuity:P9",
+          "service:P9"
+        ],
+        "candidate": false,
+        "held": false
+      },
+      {
+        "apptId": "A3",
+        "actionKey": "employer:F1:周五",
+        "kind": "雇主批量核验",
+        "type": "雇主",
+        "slot": "周五",
+        "target": "F1",
+        "firm": "F1",
+        "workerIds": [
+          "P3",
+          "P8"
+        ],
+        "denied": [
+          {
+            "worker": "P2",
+            "reason": "no_active_authorization"
+          }
+        ],
+        "score": 65,
+        "freshNeeds": [
+          "pre_horizon_status:P3"
+        ],
+        "decisions": [
+          "future_retention:P3",
+          "stat:source:乡乙",
+          "stat:channel:自行"
+        ],
+        "candidate": true,
+        "held": false
+      }
+    ],
+    "waitlisted": [
+      {
+        "apptId": "A4",
+        "actionKey": "personal:P4:周四",
+        "slot": "周四",
+        "target": "P4",
+        "workerIds": [
+          "P4"
+        ],
+        "score": 65,
+        "reasonZh": "该时段容量已由已约或更高共享价值核验占用"
+      }
+    ],
+    "superseded": [
+      {
+        "apptId": "A2",
+        "actionKey": "personal:P3:周五",
+        "slot": "周五",
+        "target": "P3",
+        "workerIds": [
+          "P3"
+        ],
+        "reasonZh": "同一结论或可共享证据已由另一次核验覆盖，不重复获取"
+      }
+    ],
+    "notNeeded": [
+      {
+        "apptId": null,
+        "actionKey": "personal:P7:周四",
+        "slot": "周四",
+        "target": "P7",
+        "workerIds": [
+          "P7"
+        ],
+        "reasonZh": "现有可核实记录已足够支持当前结论，不再占用跟访次数"
+      }
+    ],
+    "blocked": [],
+    "complianceExceptions": [],
+    "retainedAppointments": [
+      {
+        "apptId": "A1",
+        "slot": "周三",
+        "target": "P1",
+        "kind": "个人",
+        "compliant": true,
+        "reasonZh": "已预约时段优先占用，并保留用于本季项目评估"
+      }
+    ],
+    "addressedNeeds": [
+      "horizon_status:P1",
+      "pre_horizon_status:P9",
+      "transfer_clarification:P9",
+      "pre_horizon_status:P3"
+    ],
+    "ruleZh": "先满足同意方式/时段/授权/当前雇主等硬约束，再按一次核验能改变的留岗判断、分组统计和服务决定排序；共享雇主证据只获取一次。"
+  },
+  "sampling": {
+    "eligible": [
+      {
+        "worker": "P1",
+        "source": "乡甲",
+        "channel": "集体",
+        "slots": [
+          "周三"
+        ],
+        "channels": [
+          "个人"
+        ],
+        "maturity": "mature",
+        "horizonStatus": "unresolved",
+        "unresolvedNeedCount": 1
+      },
+      {
+        "worker": "P3",
+        "source": "乡乙",
+        "channel": "自行",
+        "slots": [
+          "周五"
+        ],
+        "channels": [
+          "个人",
+          "雇主"
+        ],
+        "maturity": "immature",
+        "horizonStatus": "not_observable",
+        "unresolvedNeedCount": 1
+      },
+      {
+        "worker": "P4",
+        "source": "乡乙",
+        "channel": "集体",
+        "slots": [
+          "周四"
+        ],
+        "channels": [
+          "个人"
+        ],
+        "maturity": "immature",
+        "horizonStatus": "not_observable",
+        "unresolvedNeedCount": 1
+      },
+      {
+        "worker": "P7",
+        "source": "乡甲",
+        "channel": "自行",
+        "slots": [
+          "周四"
+        ],
+        "channels": [
+          "个人"
+        ],
+        "maturity": "mature",
+        "horizonStatus": "exited_voluntary",
+        "unresolvedNeedCount": 0
+      },
+      {
+        "worker": "P8",
+        "source": "乡乙",
+        "channel": "集体",
+        "slots": [
+          "周五"
+        ],
+        "channels": [
+          "雇主"
+        ],
+        "maturity": "mature",
+        "horizonStatus": "stable",
+        "unresolvedNeedCount": 0
+      },
+      {
+        "worker": "P9",
+        "source": "乡乙",
+        "channel": "自行",
+        "slots": [
+          "周四"
+        ],
+        "channels": [
+          "个人"
+        ],
+        "maturity": "immature",
+        "horizonStatus": "not_observable",
+        "unresolvedNeedCount": 2
+      }
+    ],
+    "protectedAppointments": [
+      "A1"
+    ],
+    "protectedWorkers": [
+      "P1"
+    ],
+    "supplements": [
+      {
+        "worker": "P4",
+        "source": "乡乙",
+        "channel": "集体",
+        "slots": [
+          "周四"
+        ],
+        "channels": [
+          "个人"
+        ],
+        "maturity": "immature",
+        "horizonStatus": "not_observable",
+        "unresolvedNeedCount": 1,
+        "fillsGap": true,
+        "priorityScore": 48.5,
+        "fills": [
+          "source:乡乙",
+          "channel:集体"
+        ]
+      },
+      {
+        "worker": "P9",
+        "source": "乡乙",
+        "channel": "自行",
+        "slots": [
+          "周四"
+        ],
+        "channels": [
+          "个人"
+        ],
+        "maturity": "immature",
+        "horizonStatus": "not_observable",
+        "unresolvedNeedCount": 2,
+        "fillsGap": true,
+        "priorityScore": 36,
+        "fills": [
+          "source:乡乙",
+          "channel:自行"
+        ]
+      },
+      {
+        "worker": "P3",
+        "source": "乡乙",
+        "channel": "自行",
+        "slots": [
+          "周五"
+        ],
+        "channels": [
+          "个人",
+          "雇主"
+        ],
+        "maturity": "immature",
+        "horizonStatus": "not_observable",
+        "unresolvedNeedCount": 1,
+        "fillsGap": true,
+        "priorityScore": 28.5,
+        "fills": [
+          "source:乡乙",
+          "channel:自行"
+        ]
+      }
+    ],
+    "overflowGapCandidates": [],
+    "otherLegalCandidates": [
+      {
+        "worker": "P7",
+        "source": "乡甲",
+        "channel": "自行",
+        "slots": [
+          "周四"
+        ],
+        "channels": [
+          "个人"
+        ],
+        "maturity": "mature",
+        "horizonStatus": "exited_voluntary",
+        "unresolvedNeedCount": 0,
+        "fillsGap": false,
+        "priorityScore": 44,
+        "fills": [
+          "source:乡甲",
+          "channel:自行"
+        ]
+      },
+      {
+        "worker": "P8",
+        "source": "乡乙",
+        "channel": "集体",
+        "slots": [
+          "周五"
+        ],
+        "channels": [
+          "雇主"
+        ],
+        "maturity": "mature",
+        "horizonStatus": "stable",
+        "unresolvedNeedCount": 0,
+        "fillsGap": false,
+        "priorityScore": 44,
+        "fills": [
+          "source:乡乙",
+          "channel:集体"
+        ]
+      }
+    ],
+    "additionalCandidates": [
+      {
+        "worker": "P9",
+        "source": "乡乙",
+        "channel": "自行",
+        "slots": [
+          "周四"
+        ],
+        "channels": [
+          "个人"
+        ],
+        "maturity": "immature",
+        "horizonStatus": "not_observable",
+        "unresolvedNeedCount": 2,
+        "fillsGap": true,
+        "priorityScore": 36,
+        "fills": [
+          "source:乡乙",
+          "channel:自行"
+        ]
+      },
+      {
+        "worker": "P3",
+        "source": "乡乙",
+        "channel": "自行",
+        "slots": [
+          "周五"
+        ],
+        "channels": [
+          "个人",
+          "雇主"
+        ],
+        "maturity": "immature",
+        "horizonStatus": "not_observable",
+        "unresolvedNeedCount": 1,
+        "fillsGap": true,
+        "priorityScore": 28.5,
+        "fills": [
+          "source:乡乙",
+          "channel:自行"
+        ]
+      }
+    ],
+    "excludedFromLegalFrame": [
+      {
+        "worker": "P2",
+        "reason": "employer_authorization_or_current_scope_missing",
+        "contact": {
+          "worker": "P2",
+          "slots": [
+            "周三"
+          ],
+          "methods": [
+            "雇主"
+          ],
+          "phoneAllowed": false,
+          "employerAllowed": true,
+          "refused": false,
+          "adjusted": false,
+          "note": null
+        }
+      },
+      {
+        "worker": "P5",
+        "reason": "consent_refused",
+        "contact": {
+          "worker": "P5",
+          "slots": [],
+          "methods": [],
+          "phoneAllowed": false,
+          "employerAllowed": false,
+          "refused": true,
+          "adjusted": false,
+          "note": null
+        }
+      },
+      {
+        "worker": "P6",
+        "reason": "employer_authorization_or_current_scope_missing",
+        "contact": {
+          "worker": "P6",
+          "slots": [
+            "周五"
+          ],
+          "methods": [
+            "雇主"
+          ],
+          "phoneAllowed": false,
+          "employerAllowed": true,
+          "refused": false,
+          "adjusted": false,
+          "note": null
+        }
+      },
+      {
+        "worker": "P10",
+        "reason": "employer_authorization_or_current_scope_missing",
+        "contact": {
+          "worker": "P10",
+          "slots": [
+            "周三"
+          ],
+          "methods": [
+            "雇主"
+          ],
+          "phoneAllowed": false,
+          "employerAllowed": true,
+          "refused": false,
+          "adjusted": false,
+          "note": null
+        }
+      }
+    ],
+    "ruleZh": "下期抽样只从当前同意、时段、授权和用途均合法的核验人群补缺；已约且用于本季评估的核验继续保留。"
+  },
+  "outreach": {
+    "frame": {
+      "eligible": [
+        {
+          "worker": "P1",
+          "source": "乡甲",
+          "channel": "集体",
+          "slots": [
+            "周三"
+          ],
+          "channels": [
+            "个人"
+          ],
+          "maturity": "mature",
+          "horizonStatus": "unresolved",
+          "unresolvedNeedCount": 1
+        },
+        {
+          "worker": "P3",
+          "source": "乡乙",
+          "channel": "自行",
+          "slots": [
+            "周五"
+          ],
+          "channels": [
+            "个人",
+            "雇主"
+          ],
+          "maturity": "immature",
+          "horizonStatus": "not_observable",
+          "unresolvedNeedCount": 1
+        },
+        {
+          "worker": "P4",
+          "source": "乡乙",
+          "channel": "集体",
+          "slots": [
+            "周四"
+          ],
+          "channels": [
+            "个人"
+          ],
+          "maturity": "immature",
+          "horizonStatus": "not_observable",
+          "unresolvedNeedCount": 1
+        },
+        {
+          "worker": "P7",
+          "source": "乡甲",
+          "channel": "自行",
+          "slots": [
+            "周四"
+          ],
+          "channels": [
+            "个人"
+          ],
+          "maturity": "mature",
+          "horizonStatus": "exited_voluntary",
+          "unresolvedNeedCount": 0
+        },
+        {
+          "worker": "P8",
+          "source": "乡乙",
+          "channel": "集体",
+          "slots": [
+            "周五"
+          ],
+          "channels": [
+            "雇主"
+          ],
+          "maturity": "mature",
+          "horizonStatus": "stable",
+          "unresolvedNeedCount": 0
+        },
+        {
+          "worker": "P9",
+          "source": "乡乙",
+          "channel": "自行",
+          "slots": [
+            "周四"
+          ],
+          "channels": [
+            "个人"
+          ],
+          "maturity": "immature",
+          "horizonStatus": "not_observable",
+          "unresolvedNeedCount": 2
+        }
+      ],
+      "excluded": [
+        {
+          "worker": "P2",
+          "reason": "employer_authorization_or_current_scope_missing",
+          "contact": {
+            "worker": "P2",
+            "slots": [
+              "周三"
+            ],
+            "methods": [
+              "雇主"
+            ],
+            "phoneAllowed": false,
+            "employerAllowed": true,
+            "refused": false,
+            "adjusted": false,
+            "note": null
+          }
+        },
+        {
+          "worker": "P5",
+          "reason": "consent_refused",
+          "contact": {
+            "worker": "P5",
+            "slots": [],
+            "methods": [],
+            "phoneAllowed": false,
+            "employerAllowed": false,
+            "refused": true,
+            "adjusted": false,
+            "note": null
+          }
+        },
+        {
+          "worker": "P6",
+          "reason": "employer_authorization_or_current_scope_missing",
+          "contact": {
+            "worker": "P6",
+            "slots": [
+              "周五"
+            ],
+            "methods": [
+              "雇主"
+            ],
+            "phoneAllowed": false,
+            "employerAllowed": true,
+            "refused": false,
+            "adjusted": false,
+            "note": null
+          }
+        },
+        {
+          "worker": "P10",
+          "reason": "employer_authorization_or_current_scope_missing",
+          "contact": {
+            "worker": "P10",
+            "slots": [
+              "周三"
+            ],
+            "methods": [
+              "雇主"
+            ],
+            "phoneAllowed": false,
+            "employerAllowed": true,
+            "refused": false,
+            "adjusted": false,
+            "note": null
+          }
+        }
+      ],
+      "blockedAppointments": []
+    },
+    "bySource": [
+      {
+        "group": "乡甲",
+        "openDecisionWorkers": 4,
+        "lawfullyReachableOpenWorkers": 1,
+        "scheduledOpenWorkers": 1,
+        "unreachableOpenWorkers": 3,
+        "unresolvedNeeds": 4,
+        "scheduledFreshNeeds": 1
+      },
+      {
+        "group": "乡乙",
+        "openDecisionWorkers": 3,
+        "lawfullyReachableOpenWorkers": 3,
+        "scheduledOpenWorkers": 2,
+        "unreachableOpenWorkers": 0,
+        "unresolvedNeeds": 4,
+        "scheduledFreshNeeds": 3
+      }
+    ],
+    "byChannel": [
+      {
+        "group": "集体",
+        "openDecisionWorkers": 4,
+        "lawfullyReachableOpenWorkers": 2,
+        "scheduledOpenWorkers": 1,
+        "unreachableOpenWorkers": 2,
+        "unresolvedNeeds": 4,
+        "scheduledFreshNeeds": 1
+      },
+      {
+        "group": "自行",
+        "openDecisionWorkers": 3,
+        "lawfullyReachableOpenWorkers": 2,
+        "scheduledOpenWorkers": 2,
+        "unreachableOpenWorkers": 1,
+        "unresolvedNeeds": 4,
+        "scheduledFreshNeeds": 3
+      }
+    ],
+    "caseWorkers": [
+      {
+        "case": "H1",
+        "worker": "P2",
+        "owner": "乡甲",
+        "stage": "已受理",
+        "rule": "持续失联",
+        "lawfullyReachable": false,
+        "slots": [],
+        "channels": [],
+        "reasonIfUnreachable": "employer_authorization_or_current_scope_missing",
+        "triggerRelationZh": "窗口调整后按新同意时段重算；无法合法联系只改变登记/触发可达性，不把覆盖不足记成个人脱岗。"
+      },
+      {
+        "case": "H2",
+        "worker": "P6",
+        "owner": "乡乙",
+        "stage": "待复核",
+        "rule": "合同结束",
+        "lawfullyReachable": false,
+        "slots": [],
+        "channels": [],
+        "reasonIfUnreachable": "employer_authorization_or_current_scope_missing",
+        "triggerRelationZh": "窗口调整后按新同意时段重算；无法合法联系只改变登记/触发可达性，不把覆盖不足记成个人脱岗。"
+      },
+      {
+        "case": "H3",
+        "worker": "P1",
+        "owner": "乡甲",
+        "stage": "在办",
+        "rule": "连续转岗",
+        "lawfullyReachable": true,
+        "slots": [
+          "周三"
+        ],
+        "channels": [
+          "个人"
+        ],
+        "reasonIfUnreachable": null,
+        "triggerRelationZh": "窗口调整后按新同意时段重算；无法合法联系只改变登记/触发可达性，不把覆盖不足记成个人脱岗。"
+      }
+    ]
+  },
+  "contactLists": [
+    {
+      "id": "CL1",
+      "recipient": "F1",
+      "workers": "P2+P3+P8",
+      "at": "23",
+      "state": "已送",
+      "workerIds": [
+        "P2",
+        "P3",
+        "P8"
+      ],
+      "frozen": true,
+      "canAddWorkers": false,
+      "memberAccess": [
+        {
+          "worker": "P2",
+          "currentlyAllowed": false,
+          "allowedAtIssuance": true,
+          "reason": "no_active_authorization",
+          "grantKey": "grant:P2:F1:本厂在岗",
+          "retentionUseAllowed": false
+        },
+        {
+          "worker": "P3",
+          "currentlyAllowed": true,
+          "allowedAtIssuance": true,
+          "reason": null,
+          "grantKey": "grant:P3:F1:本厂在岗",
+          "retentionUseAllowed": true
+        },
+        {
+          "worker": "P8",
+          "currentlyAllowed": true,
+          "allowedAtIssuance": true,
+          "reason": null,
+          "grantKey": "grant:P8:F1:本厂在岗",
+          "retentionUseAllowed": true
+        }
+      ],
+      "deniedMembers": [
+        {
+          "worker": "P2",
+          "reason": "no_active_authorization"
+        }
+      ]
+    },
+    {
+      "id": "CL2",
+      "recipient": "F1",
+      "workers": "P3+P8",
+      "at": "26",
+      "state": "待送",
+      "workerIds": [
+        "P3",
+        "P8"
+      ],
+      "frozen": false,
+      "canAddWorkers": true,
+      "memberAccess": [
+        {
+          "worker": "P3",
+          "currentlyAllowed": true,
+          "allowedAtIssuance": true,
+          "reason": null,
+          "grantKey": "grant:P3:F1:本厂在岗",
+          "retentionUseAllowed": true
+        },
+        {
+          "worker": "P8",
+          "currentlyAllowed": true,
+          "allowedAtIssuance": true,
+          "reason": null,
+          "grantKey": "grant:P8:F1:本厂在岗",
+          "retentionUseAllowed": true
+        }
+      ],
+      "deniedMembers": []
+    }
+  ]
+}

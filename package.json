@@ -3,11 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "retention": "./bin/retention.js"
+  },
   "engines": {
     "node": "22.x"
   },
   "scripts": {
     "test": "node --test",
-    "data:check": "node --test test/data.test.js"
+    "data:check": "node --test test/data.test.js",
+    "validate": "node bin/retention.js validate",
+    "schedule": "node bin/retention.js schedule",
+    "report": "node bin/retention.js report --out output/report.md"
   }
 }
